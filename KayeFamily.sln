@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A1E51AB-0050-47E6-A722-0FB6EED966F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85C4F587-D92E-47E6-8739-AC6A3DFEFFCB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KayeFamily", "src\KayeFamily\KayeFamily.xproj", "{99CC0BCA-C58B-4EC8-967C-748394E87381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CC0BCA-C58B-4EC8-967C-748394E87381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CC0BCA-C58B-4EC8-967C-748394E87381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CC0BCA-C58B-4EC8-967C-748394E87381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CC0BCA-C58B-4EC8-967C-748394E87381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99CC0BCA-C58B-4EC8-967C-748394E87381} = {7A1E51AB-0050-47E6-A722-0FB6EED966F4}
+	EndGlobalSection
+EndGlobal
